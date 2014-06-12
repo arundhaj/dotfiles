@@ -16,8 +16,15 @@ git submodule init
 git submodule update
 ```
 
+For windows the symbolic link is done differently
+```zsh
+cd D:\ProgramFiles\Vim
+mklink _vimrc D:\dotfiles\vimrc
+mklink /D vimfiles D:\dotfiles\vim
+```
+
 To add submodules
-```shell
+```bash
 cd ~/dotfiles
 git submodule add https://github.com/kien/ctrlp.vim.git vim/bundle/ctrlp
 git add .

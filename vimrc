@@ -56,6 +56,7 @@ vnoremap > >gv
 " wget -o wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=256
 color wombat256mod
+set guifont=Consolas:h12
 
 " Enable syntax highlighting
 " You need to reload this file for the change to apply
