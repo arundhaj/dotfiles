@@ -3,10 +3,6 @@
 " Automatically reload .vimrc
 " autocmd! bufwritepost .vimrc source %
 
-" copy and paste
-" when pasting large blocks of code into vim, press F2 before pasting.
-" At the bottom you should see -- INSERT (paste) --
-
 " Setup Pathogen to manage plugins
 " mkdir -p ~/.vim/autoload ~/.vim/bundle
 " cd ~/.vim/autoload
@@ -14,6 +10,9 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+" copy and paste
+" when pasting large blocks of code into vim, press F2 before pasting.
+" At the bottom you should see -- INSERT (paste) --
 set pastetoggle=<F2>
 set clipboard=unnamed
 
