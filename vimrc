@@ -65,7 +65,7 @@ syntax on
 
 " Showing line numbers and length
 set number	" show line number
-set tw=79	" width of the document (used by gd)
+"set tw=79	" width of the document (used by gd)
 set nowrap 
 set fo-=t
 set colorcolumn=80
