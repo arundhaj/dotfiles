@@ -6,7 +6,7 @@ collection of my dotfiles
 Steps to clone the configurations
 ```shell
 cd
-git clone https://github.ocm/arundhaj/dotfiles.git dotfiles
+git clone https://github.com/arundhaj/dotfiles.git dotfiles
 git config --global user.name "arundhaj" # self instruction, not for others
 git config --global user.email "arundhaj@gmail.com" # self instruction, not for others
 cd dotfiles
