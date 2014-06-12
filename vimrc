@@ -6,6 +6,14 @@
 " copy and paste
 " when pasting large blocks of code into vim, press F2 before pasting.
 " At the bottom you should see -- INSERT (paste) --
+
+" Setup Pathogen to manage plugins
+" mkdir -p ~/.vim/autoload ~/.vim/bundle
+" cd ~/.vim/autoload
+" wget https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
+call pathogen#infect()
+call pathogen#helptags()
+
 set pastetoggle=<F2>
 set clipboard=unnamed
 
@@ -46,8 +54,7 @@ vnoremap > >gv
 
 " Color scheme
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
-" wget -o wombat256mod.vim
-" http://www.vim.org/scripts/download_script.php?src_id=13400
+" wget -o wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=256
 color wombat256mod
 
@@ -100,11 +107,6 @@ set vb
 set noerrorbells
 set showcmd
 
-" Setup Pathogen to manage plugins
-" mkdir -p ~/.vim/autoload ~/.vim/bundle
-" cd ~/.vim/autoload
-" wget https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
-call pathogen#infect() 
 
 " =======================================
 " Python IDE Setup
