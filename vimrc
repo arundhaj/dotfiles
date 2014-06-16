@@ -69,8 +69,8 @@ set number	" show line number
 "set tw=79	" width of the document (used by gd)
 set nowrap 
 set fo-=t
-set colorcolumn=80
-highlight ColorColumn ctermbg=233
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=233
 
 set history=1000
 set undolevels=1000
