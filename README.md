@@ -1,5 +1,4 @@
-dotfiles
-========
+# dotfiles
 
 collection of my dotfiles
 
@@ -9,6 +8,11 @@ cd
 git clone https://github.com/arundhaj/dotfiles.git dotfiles
 git config --global user.name "arundhaj" # self instruction, not for others
 git config --global user.email "arundhaj@gmail.com" # self instruction, not for others
+```
+
+### VIM
+
+```bash
 cd dotfiles
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/vim ~/.vim
@@ -35,4 +39,11 @@ To update submodule
 ```bash
 cd ~/dotfiles/vim/bundle/ctrlp
 git pull origin master
+```
+
+### GIT
+
+```bash
+cd dotfiles
+ln -s ~/dotfiles/gitignore ~/.gitignore
 ```
