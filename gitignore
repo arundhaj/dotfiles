@@ -24,6 +24,7 @@ pip-log.txt
 nosetests.xml
 
 # Eclipse pydev
+.project
 .pydevproject
 .metadata
 bin/
