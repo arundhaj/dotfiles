@@ -87,6 +87,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+nnoremap <Leader>s :noh<CR>
 
 " Disable backup and swap files
 set nobackup
