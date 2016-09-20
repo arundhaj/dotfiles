@@ -18,6 +18,8 @@ ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/vim ~/.vim
 git submodule init
 git submodule update
+
+ln -s ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ```
 
 For windows the symbolic link is done differently
